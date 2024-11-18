@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bishal Gautam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="home">
+      <div class="header">
+        <div class="header-content">
+          <div class="logo">
+            <a href="#home"><h1>Gautam.</h1></a>
+          </div>
+          <div class="header-nav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-me">About</a></li>
+              <li><a href="#skills-section">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact-me">Contact</a></li>
+            </ul>
+          </div>
+          <div class="header-btn">
+            <strong><button>Download CV</button></strong>
+          </div>
+        </div>
+      </div>
+      <div id="home-container">
+        <div class="home-container-content">
+          <div class="my-description">
+            <h1>Hi, i am gautam</h1>
+            <br />
+            <h2 style="color: gray">Frontend Developer</h2>
+            <br />
+            <p style="text-align: justify; line-height: 3rem">
+              Extensive experience in web design and development, consistently
+              producing high-quality work
+            </p>
+            <br />
+            <button>Contact me</button>
+          </div>
+          <div class="my-image"></div>
+        </div>
+      </div>
+    </div>
+    <div id="about-me">
+      <div class="about-me-container">
+        <div class="about-me-img"></div>
+        <div class="about-me-details">
+          <h1>About Me</h1>
+          <p style="line-height: 2.5rem">
+            As a passionate tech enthusiast, I thrive on creating dynamic web
+            solutions. Exploring new technologies and crafting seamless user
+            experiences fuels my drive for innovation.With every project, I
+            embrace challenges, learn, and evolve, making technology a
+            cornerstone of my creative journey in web development and
+            problem-solving.
+          </p>
+          <div class="experiences">
+            <div>
+              <strong>1+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div>
+              <strong>4+</strong>
+              <span>Completed Projects</span>
+            </div>
+            <div>
+              <strong>1+</strong>
+              ><span>Companies Worked</span>
+            </div>
+          </div>
+          <button>Download CV</button>
+        </div>
+      </div>
+    </div>
+    <div id="skills-section">
+      <div class="skills-container">
+        <h1>Skills</h1>
+        <div class="skillset">
+          <div class="skills">
+            <div class="skill-img">
+              <img src="images/code.png" alt="">
+            </div>
+            <div class="skill">
+                <h3>Frontend Developer</h3>
+                <h4>A Year</h4>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skill-img">
+              <img src="images/server.png" alt="">
+            </div>
+            <div class="skill">
+                <h3>Backend Developer</h3>
+                <h4>Learning</h4>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skill-img">
+                <img src="images/graphic-designer.png" alt="">
+            </div>
+            <div class="skill">
+                <h3>Ui/Ux Designer</h3>
+                <h4>A Year</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects">
+      <div class="projects-container">
+        <div class="heading">
+          <h1>Projects</h1>
+        </div>
+        
+        <div class="projects-list">
+          <div class="projects-names">
+            <div class="image">
+              <img src="images/e-commerce-8676517_1280.jpg" alt="">
+            </div>
+            <div class="description">
+              <h2>Footwear Ecommerce</h2><br>
+              <p>This is a footwear site that i made just for practice. This is a single page website for now. I will do modifications in future</p>
+              <a href="https://profess-or.github.io/footwearEcommerce/"><button>View Website</button></a>
+            </div>
+          </div>
+          <div class="projects-names">
+            <div class="image">
+              <img src="images/game-944386_1280.jpg" alt="">
+            </div>
+            <div class="description">
+              <h2>Tictactoe</h2><br>
+              <p>Tictactoe game using Html , Css and Js. This is a simple but fun game which you can play with your friends</p><br>
+              <a href="https://github.com/profess-or/Tictactoe"><button>View in Github</button></a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div id="contact-me">
+      <form class="contact-form" onsubmit="redirectToGmail(event)">
+        <h1>Contact Me</h1>
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="project">Project</label>
+            <input type="text" id="project" placeholder="Enter project name" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Enter your message" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Send Message</button>
+        </div>
+    </form>
+    </div>
+    <footer>
+      <div class="footer-content">
+          <p>&copy; 2024 Bishal Gautam. All Rights Reserved.</p>
+      </div>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
