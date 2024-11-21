@@ -219,7 +219,7 @@ button{
         padding: 2rem;
 }
 .skillset{
-    height: 70%;
+    
     width: 100%;
     /* background-color: yellow; */
     display: flex;
@@ -257,7 +257,7 @@ button{
 
 
 #projects{
-    height: 85vh;
+    
     /* background-color: red; */
     display: flex;
     justify-content: center;
@@ -266,15 +266,17 @@ button{
     
 }
 .projects-container{
-    height: 100%;
+    
     width: 65%;
     /* background-color: yellow; */
     display: flex;
     flex-direction: column;
+    
     gap: 2rem;
     
    
 }
+
 .projects-container .heading{
     /* background-color: green; */
     height: 10%;
@@ -293,7 +295,7 @@ button{
 .projects-names{
     display: flex;
     /* background-color: red; */
-    height: 23rem;
+    /* height: 23rem; */
     align-items: center;
     gap: 3rem;
     padding: 2rem;
@@ -322,6 +324,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 .contact-form {
     background: #ffffff;
