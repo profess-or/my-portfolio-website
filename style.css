@@ -10,6 +10,7 @@
 html{
     font-size: 62.5%;
     scroll-padding-top: 15vh; 
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'poppins',sans-serif;
@@ -39,29 +40,37 @@ body{
     padding: 0rem 3rem;
     z-index: 999;
     backdrop-filter: blur(78em);
+    overflow: hidden;
 
 }
 .header h1{
     font-size: 3rem;
 }
 .header-nav{
-    min-width: 50%;
-    height: 50%;
+    
+
     display: flex;
     align-items: center;
+    justify-content: center;
+
     
 }
+.header-content .header-nav li{
+    padding: 0rem 2rem;
+}
 .header-content .header-nav ul{
+    text-align: center;
     
-    width: 100%;
+    
     display: flex;
-    justify-content: space-around;
+   
     
     
 }
 .header-content .header-nav ul li a{
     position: relative;
     font-size: 1.5rem;
+    /* padding: 0rem 2rem; */
 }
 .header-content .header-nav ul li a::after{
     content: '';
@@ -402,5 +411,23 @@ footer .footer-content p{
 @media(max-width:700px){
     html{
         font-size: 45%;
+    }
+}
+@media(max-width:600px){
+    #home-container,
+    #about-me,
+    #skills-section,
+    #projects,
+    #contact-me,
+    footer
+    {
+        width: 100%;
+       
+    }
+    .projects-container{
+        width: 100%;
+    }
+    #cv-download{
+        display: none;
     }
 }
